@@ -7,8 +7,42 @@ body {
     font-family: arial, sans-serif; 
 }
 
+@media only screen and (max-width: 900px) {
+    .mat-card-header .mat-card-title {
+        font-size: 17px;
+    }
+
+    .mat-card-content {
+        font-size: 12px
+    }
+
+    .mat-expansion-panel-header {
+        padding: 15px;
+        font-size: 10px;
+    }
+
+    .answers {
+        padding: 0px;
+        font-size: 9px;
+    }
+
+    img.responsive-image {
+        width: 40vw;
+    }
+
+  }
+
+  .content {
+    padding: 75px;
+}
+
+
 @media only screen and (max-width: 600px) {
-    .mat-card-title {
+    .content {
+        padding: 0px;
+    }
+
+    .mat-card-header .mat-card-title {
         font-size: 15px;
     }
 
@@ -17,13 +51,16 @@ body {
     }
 
     .mat-expansion-panel-header {
-        padding: 15px;
-        font-size: 7.5px;
+        font-size: 10px;
     }
 
     .answers {
-        padding: 0px;
-        font-size: 7.5px;
+        font-size: 10px;
+    }
+
+    img.responsive-image {
+        width: 50vw;
+        align-items: center;
     }
 
   }
