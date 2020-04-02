@@ -1,0 +1,11 @@
+.intro-card {
+    background-color: #6b3374;
+    color: white;
+    border: thin #ffffff solid;
+    text-align: center;
+}
+
+.mat-card-title {
+    font-size: 25px;
+    display: inline;
+}
