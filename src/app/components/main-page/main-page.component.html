@@ -4,8 +4,8 @@
             About
         </mat-card-title>
         <mat-card-content>
-            We understand people are experiencing some system issues which
-            are stopping them from helping our clients to the best of their ability. 
+            We understand some people are experiencing system issues which
+            are hindering them from helping clients. 
             This page is designed to answer some common questions, which should help you self-service and 
             resolve system issues without the help of Technology Services.
         </mat-card-content>
@@ -15,7 +15,7 @@
         <mat-expansion-panel *ngFor="let question of questionsAndAnswers">
             <mat-expansion-panel-header>
                 <mat-panel-title>
-                    <b>{{question.question}}</b>
+                    {{question.question}}
                 </mat-panel-title>
             </mat-expansion-panel-header>
             <div class = "answers" [innerHtml] = "question.answer">{{question.answer}}</div>

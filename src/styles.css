@@ -1,4 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+/* Global styling */
 
 html, body { height: 100%; }
 
@@ -6,6 +6,35 @@ body {
     margin: 0; 
     font-family: arial, sans-serif; 
 }
+
+.intro-card {
+    background-color: #6b3374;
+    color: white;
+    border: thin #ffffff solid;
+    text-align: center;
+}
+
+.content {
+    padding: 75px;
+}
+
+.mat-card-content {
+    font-size: 18px;
+    line-height: normal;
+}
+
+.mat-expansion-panel-header {
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: normal;
+}
+
+.answers {
+    padding: 0px;
+    font-size: 18px;
+}
+
+/*Responsive styling*/
 
 @media only screen and (max-width: 900px) {
     .mat-card-header .mat-card-title {
@@ -32,18 +61,14 @@ body {
 
   }
 
-  .content {
-    padding: 75px;
-}
-
-
 @media only screen and (max-width: 600px) {
     .content {
         padding: 0px;
     }
 
-    .mat-card-header .mat-card-title {
+    .mat-card-title .mat-card-title {
         font-size: 15px;
+        text-align: center;
     }
 
     .mat-card-content {
@@ -51,16 +76,18 @@ body {
     }
 
     .mat-expansion-panel-header {
-        font-size: 10px;
+        font-size: 12px;
+        line-height: 15px;
     }
 
     .answers {
-        font-size: 10px;
+        font-size: 12px;
+        line-height: 15px;
     }
 
     img.responsive-image {
         width: 50vw;
         align-items: center;
     }
-
   }
+
